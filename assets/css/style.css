@@ -1,0 +1,53 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+/* ----------------------navbar----------------------- */
+.nav-item {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #415123 !important;
+}
+/* ------------------jumbotron------------------------- */
+.jumbotron{
+    width: 100%;
+    height: 650px;
+    background-image: url(../img/hero-banner.jpg);
+    background-size: cover;
+}
+.jumbotron .display-4{
+    width:530px;
+    height: 120px;
+    padding-top:62px;
+    padding-bottom: 14px;
+    font-weight: bold;
+    font-size: 48px;
+    color: #333333;
+    line-height: 60px;
+}
+.jumbotron .lead{
+    width:476px;
+    padding-top:58px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #69803E;
+    line-height: 28px;
+
+}
+.jumbotron .btn{
+    font-size: 16px !important;
+    border-color: #415123;
+    color: #415123;
+    font-weight: 600;
+    width: 152px;
+    height: 56px;
+    padding: 16px 23px;
+}
+.jumbotron .btn:hover{
+    background-color: #415123 !important;
+}
+/* -------destop---------- */
+@media (min-width: 992px) {
+    
+}
