@@ -117,10 +117,6 @@
     display: inline-block;
 }
 
-
-
-
-
 /* -------mobile---------- */
 @media (max-width: 767.98px) { 
     /* -----------navbar-------- */
@@ -176,5 +172,53 @@
         font-size: 12px;
         margin: 0 auto;
         margin-bottom: 37px;
+    }
+    .produk-clarity{
+        box-shadow: 10px 32px 72px rgba(51, 51, 51, 0.1) !important;
+        border-radius: 10px;
+        width: 239px !important;
+        height: 334px;
+        margin-right: 50%;
+        margin-left: 50%;
+        margin-bottom: 60px;
+    }
+    .produk-clarity .produk{
+        margin-top: 20px;
+        margin-right: 2px;
+        margin-left: 1px;
+        width: 209px;
+        height: 188px;
+        background: #FFF9F2;
+        border-radius: 10px;
+    }
+    .produk-clarity .produk img{
+        margin-left:auto;
+        margin-right:auto;
+        width: 35%;
+        display:block;
+        padding-top: 45px;
+    }
+    .produk-clarity .merek{
+        margin-top: 14px;
+        font-size: 14px;
+        margin-left: 1px;
+        margin-bottom: 6px;
+    }
+    .produk-clarity .unit{
+        font-size: 12px;
+        margin-left: 1px;
+    }
+    .produk-clarity .harga{
+        margin-top: -45px;
+        margin-right: 3px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .produk-clarity .add-to-cart{
+        width: 100%;
+        height: 35px;
+        font-size: 11px;
+        display: inline-block;
     }
  }
