@@ -191,6 +191,46 @@
 	position: absolute;
 	bottom: 0;
 }
+/* -------------------choose-produk---------------------- */
+.choose-produk{
+    margin-top: 29px;
+    text-align: center;
+}
+.choose-produk-item{
+    width: 380px;
+    height: 240px;
+    text-align: center;
+    box-shadow: 10px 32px 72px rgba(51, 51, 51, 0.1);
+    border-radius: 10px;
+}
+.choose-produk-item .cover{
+    margin-top: 23px;
+    margin-bottom: 31px;
+    margin-right: auto;
+    margin-left:auto ;
+    width: 70px;
+    height: 70px;
+    background-color: #415123;
+    border-radius: 100%;
+}
+.cover img{
+    padding-top: 18px;
+}
+.choose-produk-item h5{
+    font-weight: 500;
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+.choose-produk-item p{
+    margin: 0 auto;
+    width: 312px;
+    height: 55px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    color: #999999;
+}
 
 
 /* -------mobile---------- */
