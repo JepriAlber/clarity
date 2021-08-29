@@ -10,7 +10,6 @@
 }
 /* ------------------jumbotron------------------------- */
 .jumbotron{
-    width: 100%;
     height: 650px;
     background-image: url(../img/hero-banner.jpg);
     background-size: cover;
@@ -36,21 +35,95 @@
 }
 .jumbotron .btn{
     font-size: 16px !important;
-    border-color: #415123;
     color: #415123;
     font-weight: 600;
     width: 152px;
     height: 56px;
     padding: 16px 23px;
+    border: 1px solid #415123;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-right: 24px;
 }
 .jumbotron .btn:hover{
     background-color: #415123 !important;
+    border-color: #415123 !important;
 }
+/* -----------content------------------------ */
 .shop-clarity{
     text-align: center;
 }
-/* -------destop---------- */
+.title-content{
+    font-weight: bold;
+    font-size: 40px;
+    color: #333333;
+    margin-top: 90px;
+}
+.shop-clarity p{
+    font-size: 14px;
+    color: #999999;
+
+}
+.produk-clarity{
+    box-shadow: 10px 32px 72px rgba(51, 51, 51, 0.1) !important;
+    border-radius: 10px;
+    height: 514px;
+}
+.produk-clarity .produk{
+    margin-top: 23px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 330px;
+    background: #FFF9F2;
+    border-radius: 10px;
+}
+.produk-clarity .produk img{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    padding-top: 78px;
+}
+.produk-clarity .merek{
+    margin-top: 24px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #333333;
+    margin-left: 23px;
+}
+.produk-clarity .unit{
+    font-weight: normal;
+    font-size: 14px;
+    color: #999999;
+    margin-left: 23px;
+}
+.produk-clarity .harga{
+    margin-top: -55px;
+    margin-right: 23px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    float: right;
+    color: #333333;
+}
+.produk-clarity .add-to-cart{
+    background: #415123;
+    color: #FFFFFF;
+    border-radius: 10px;
+    width: 100%;
+    height: 55px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    display: inline-block;
+}
+
+
+
+
+
+/* -------mobile---------- */
 @media (max-width: 767.98px) { 
+    /* -----------navbar-------- */
     .navbar-brand img{
         width: 75px;
         height: 26px;
@@ -59,9 +132,10 @@
         font-size: 12px;
         line-height: 18px;
     }
+    /* ------jubotrom-------- */
     .jumbotron{
-        
         text-align: center !important;
+        height: 722px;
     }
     .jumbotron .display-4{
         width:309px;
@@ -89,6 +163,18 @@
         font-size: 11px !important;
         width: 117px;
         height: 39px;
-        padding: 11px 21px;
+        padding: 11px 21px;  
+    }
+    /* -------content------------- */
+    .title-content{
+        font-size: 28px;
+        margin-top:60px;
+    }
+    .shop-clarity p{
+        width: 227px;
+        height: 44px;
+        font-size: 12px;
+        margin: 0 auto;
+        margin-bottom: 37px;
     }
  }
