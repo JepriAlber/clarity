@@ -318,7 +318,7 @@
     color: #FFFFFF;
 }
 .subscribe .title-content-isi{
-    color: #FFFFFF;;
+    color: #FFFFFF;
 }
 .subscribe .email{
     margin-left: auto;
@@ -358,15 +358,15 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    color: #FFFFFF;;
+    color: #FFFFFF;
 }
 /* --------------foter---------------------- */
 footer{
     height: 350px;
-    background-color:  #415123;;
+    background-color:  #415123;
 }
 .footer1{
-    margin-left: 55px!important;
+    margin-left: 55px;
 }
 .footer1 .logo-footer{
     margin-top: 75px;
@@ -647,6 +647,7 @@ footer .copyright{
     .testimonial-content{
         width: 325px;
         height: 256px;
+        margin-bottom: 65px;
     }
     .testimonial-content .ratting{
         width: 80px;
@@ -734,7 +735,7 @@ footer .copyright{
     /* --------------foter---------------------- */
     footer{
         height: 815px;
-        background-color:  #415123;;
+        background-color:  #415123;
         text-align: center !important;
     }
     .footer1{
@@ -755,16 +756,13 @@ footer .copyright{
         margin-right: auto;
     }
     .footer2{
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: auto !important;
+        margin-right: auto !important;
         margin-top: 20px;
         margin-bottom: 9px;
     }
     .footer3{
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 30px;
+        margin-top: 20px;
         margin-bottom: 9px;
     }
     footer .title-footer{
@@ -773,16 +771,20 @@ footer .copyright{
         font-size: 18px;
         line-height: 27px;
         color: #CBD8B4;
-        margin-bottom: 22px;
-        margin-left: 40px;
+        margin-bottom: 5px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    footer ul{
+        display: inline;
     }
     footer li{
-        text-align: center;
+        text-align: center !important;
         font-weight: normal;
         font-size: 14px;
         line-height: 21px;
         color: #FFFFFF;
-        margin-bottom: 14px;
+        margin-bottom: 10px;
     }
     .footer4{
         text-align: center;
