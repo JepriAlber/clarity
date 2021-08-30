@@ -278,7 +278,7 @@
 }
 .testimonial-content .user .name-user{
     font-style: normal;
-    font-weight: 500;
+    font-weight: 500px;
     font-size: 12px;
     overflow-wrap: normal;
     line-height: 18px;
@@ -308,7 +308,7 @@
     /* ------jubotrom-------- */
     .jumbotron{
         text-align: center !important;
-        height: 522px;
+        height: 722px;
     }
     .jumbotron .display-4{
         width:309px;
@@ -460,7 +460,7 @@
         height: 60px;
     }
     .cover img{
-        padding-top: 15px;
+        padding-top: 14.5px;
     }
     .choose-produk-item h5{
         font-size: 18px;
@@ -488,6 +488,43 @@
         overflow-wrap: normal;
         font-size: 12px;
         line-height: 22px;
+    }
+
+    .testimonial-content{
+        width: 325px;
+        height: 256px;
+    }
+    .testimonial-content .ratting{
+        width: 80px;
+        height: 14px;
+        margin-top: 44px;
+    }
+    .ratting img{
+        width: 11.99px;
+        height: 10.53px;
+    }
+    .testimonial-content .pesan{
+        width: 275px;    
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .testimonial-content .user{
+        width: 152px;
+        height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .testimonial-content .user .img-user{
+        width: 40px;
+        height: 40px;
+    }
+    .testimonial-content .user .name-user{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .testimonial-content .user .alamat-user{
+        font-size: 8px;
+        line-height: 12px;
     }
     
  }
