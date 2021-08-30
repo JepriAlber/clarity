@@ -467,6 +467,8 @@ footer .copyright{
     .jumbotron{
         text-align: center !important;
         height: 722px;
+        background-position: center;
+        background-size: cover;
     }
     .jumbotron .display-4{
         width:309px;
