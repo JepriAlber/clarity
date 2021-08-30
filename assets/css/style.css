@@ -16,9 +16,8 @@
 }
 .jumbotron .display-4{
     width:530px;
-    height: 120px;
-    padding-top:62px;
-    padding-bottom: 14px;
+    overflow-wrap: normal;
+    margin-top:62px;
     font-weight: bold;
     font-size: 48px;
     color: #333333;
@@ -26,7 +25,6 @@
 }
 .jumbotron .lead{
     width:479px;
-    padding-top:58px;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -64,12 +62,12 @@
     text-align: center;
 }
 .produk-clarity{
-    box-shadow: 10px 32px 72px rgba(51, 51, 51, 0.03) !important;
+    box-shadow: 10px 32px 72px rgba(51, 51, 51, 0.1) !important;
     border-radius: 10px;
-    width: 370px;
+    width: 360px;
     height: 514px;
     margin-top: 29px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 .produk-clarity .produk{
     margin-top: 23px;
@@ -196,13 +194,13 @@
     text-align: center;
 }
 .choose-produk-item{
-    width: 370px;
+    width: 360px;
     height: 240px;
     text-align: center;
     box-shadow: 10px 32px 72px rgba(51, 51, 51, 0.1);
     border-radius: 10px;
     margin-top: 29px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 .choose-produk-item .cover{
     margin-top: 23px;
@@ -226,7 +224,7 @@
 .choose-produk-item p{
     margin: 0 auto;
     width: 312px;
-    height: 55px;
+    overflow-wrap: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 28px;
@@ -248,30 +246,30 @@
     /* ------jubotrom-------- */
     .jumbotron{
         text-align: center !important;
-        height: 722px;
+        height: 522px;
     }
     .jumbotron .display-4{
         width:309px;
-        padding-top:50px;
-        padding-bottom: 9px;
+        margin-top:100px;
         color: #333333;
         font-weight: bold;
         font-size: 28px;
         line-height: 40px;
         text-align: center;
-        margin: 0 auto !important;
+        margin-left: auto;
+        margin-right: auto;
     }
     .jumbotron .lead{
-        margin: 0 auto !important;
-        width:300px;
-        padding-top:18px;
+        margin-left: auto;
+        margin-right: auto;
+        width:299px;
+        overflow-wrap: normal;
         font-size: 12px;
         color: #69803E;
         line-height: 28px;
         text-align: center;
     }
     .jumbotron .btn{
-        margin-top: 18px;
         margin-right: 18px;
         font-size: 11px !important;
         width: 117px;
@@ -284,9 +282,10 @@
         margin-top:60px;
         text-align: center;
     }
-    .shop-clarity p{
+    /* show clarity */
+    .shop-clarity .title-content-isi{
         width: 227px;
-        height: 44px;
+        overflow-wrap: normal;
         font-size: 12px;
         margin: 0 auto;
         margin-bottom: 37px;
@@ -298,7 +297,7 @@
         height: 334px;
         margin-right: 50%;
         margin-left: 50%;
-        margin-bottom: 60px;
+        margin-bottom: 20px;
     }
     .produk-clarity .produk{
         margin-top: 14px;
@@ -341,6 +340,7 @@
         margin-left: 14px;
         margin-right: 14px;
     }
+    /* shop produk */
     .shop-produk{
         margin-left: -14.5px !important;
         margin-right: -14.5px !important;
@@ -357,7 +357,7 @@
     }
     .shop-produk p{
         width: 240px;
-        height: 17px;
+        overflow-wrap: normal;
         font-size: 11px;
         line-height: 15px;
         margin-left: auto;
@@ -370,4 +370,45 @@
         font-size: 11px;
         line-height: 10px;  
     }
+    /* choose produk */
+    .choose-produk .title-content{
+        margin-left: auto;
+        margin-right: auto;
+        width: 181px;
+        overflow-wrap: normal;
+    }
+    .choose-produk .title-content-isi{
+        margin-left: auto;
+        margin-right: auto;
+        width: 286px;
+        overflow-wrap: normal;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .choose-produk-item{
+        margin-left: auto;
+        margin-right: auto;
+        width: 324px;
+        height: 204px;
+    }
+    .choose-produk-item .cover{
+        margin-top: 20px;
+        margin-bottom: 26px;
+        width: 60px;
+        height: 60px;
+    }
+    .cover img{
+        padding-top: 15px;
+    }
+    .choose-produk-item h5{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .choose-produk-item p{
+        margin: 0 auto;
+        width: 266px;
+        font-size: 12px;
+        line-height: 22px;
+    }
+
  }
