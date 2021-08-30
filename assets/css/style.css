@@ -361,6 +361,91 @@
     color: #FFFFFF;;
 }
 
+footer{
+    height: 350px;
+    background-color:  #415123;;
+}
+.footer1 .logo-footer{
+    margin-top: 75px;
+    margin-left: 1px;
+    margin-bottom: 9px;
+}
+.footer1 .deskripsi{
+    width: 292px;
+    overflow-wrap: normal;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+footer li {
+    list-style: none;
+}
+.footer-tengah{
+    margin-top: 75px;
+    margin-left: 50px;
+    margin-bottom: 9px;
+}
+footer .title-footer{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #CBD8B4;
+    margin-bottom: 32px;
+    margin-left: 40px;
+}
+footer li{
+    text-align: left;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.footer4{
+    text-align: left;
+    margin-top: 75px;
+    margin-left: 130px;
+    margin-bottom: 9px;
+}
+.footer4 .img-footer4{
+    display: inline;
+}
+.telepon .isi{
+    margin-left: 14px !important;
+}
+.footer4 .isi{
+    margin-left: 19px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    display: inline-block;
+}
+footer .sosmed{
+    width: 27px;
+    height: 27px;
+    border-radius: 100%;
+    background-color: #FFFFFF;
+    text-align: center;
+    float: left;
+    margin-right: 15px;
+}
+footer .sosmed img{
+    width: 40%;
+}
+footer hr{
+    background-color: #69803E;
+}
+footer .copyright{
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #CBD8B4;
+}
+.copyright a {
+    color: #CBD8B4;
+}
 
 /* -------mobile---------- */
 @media (max-width: 767.98px) { 
