@@ -736,7 +736,7 @@ footer .copyright{
     }
     /* --------------foter---------------------- */
     footer{
-        height: 815px;
+        height: 790px;
         background-color:  #415123;
         text-align: center !important;
     }
@@ -773,12 +773,13 @@ footer .copyright{
         font-size: 18px;
         line-height: 27px;
         color: #CBD8B4;
-        margin-bottom: 5px;
+        margin-bottom: -1px;
         margin-left: auto !important;
         margin-right: auto !important;
     }
     footer ul{
         display: inline;
+        margin-top: -10px;
     }
     footer li{
         text-align: center !important;
