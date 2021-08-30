@@ -193,15 +193,16 @@
 }
 /* -------------------choose-produk---------------------- */
 .choose-produk{
-    margin-top: 29px;
     text-align: center;
 }
 .choose-produk-item{
-    width: 380px;
+    width: 370px;
     height: 240px;
     text-align: center;
     box-shadow: 10px 32px 72px rgba(51, 51, 51, 0.1);
     border-radius: 10px;
+    margin-top: 29px;
+    margin-right: 10px;
 }
 .choose-produk-item .cover{
     margin-top: 23px;
