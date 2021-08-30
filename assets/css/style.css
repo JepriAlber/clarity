@@ -333,10 +333,14 @@
     float:left;
     margin-top: 28px;
     margin-left: 27px;
+    width: 3%;
 }
-.subscribe .email .email-address{
+.subscribe .email input{
+    border: 0px !important;
+    width: 360px !important;
+    height: 45px !important;
     margin-left: 20px;
-    margin-top: 25px;
+    margin-top: 15px;
     font-size: 14px;
     line-height: 21px;
     color: #999999;
@@ -467,10 +471,6 @@
         margin-right: 14px;
     }
     /* shop produk */
-    .shop-produk{
-        margin-left: -14.5px !important;
-        margin-right: -14.5px !important;
-    }
     .shop-produk1{
         width: 100%;
     }
@@ -589,6 +589,57 @@
     .testimonial-content .user .alamat-user{
         font-size: 8px;
         line-height: 12px;
+    }
+    /* ------------------subscribe------------ */
+    .subscribe{
+        height: 420px;
+        width: 100%;
+    }
+    .subscribe .title-content{
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 216px;
+        overflow-wrap: normal;
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .subscribe .title-content-isi{
+        margin-left: auto;
+        margin-right: auto;
+        width: 250px;
+        overflow-wrap: normal;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .subscribe .email{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 35px;
+        width: 325px;
+        height: 40px;   
+    }
+    .subscribe .email img{
+        float:left;
+        margin-top: 18px;
+        margin-left: 27px;
+    }
+    .subscribe .email input{
+        border: 0px !important;
+        width: 160px !important;
+        height: 25px !important;
+        margin-top: 9px;
+        margin-left: 20px;
+        font-size: 9px;
+        line-height: 13px;  
+    }
+    .subscribe .email .btn-email{
+        margin-top: 9px;
+        margin-right: 6px;
+        width: 78px;
+        height: 25px;
+        font-size: 9px;
+        line-height: 13px;
     }
     
  }
