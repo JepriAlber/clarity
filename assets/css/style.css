@@ -120,8 +120,6 @@
 }
 /* ----------are you----------- */
 .shop-produk{
-    margin-left: -76.5px !important;
-    margin-right: -76.5px !important;
     margin-top: 29px;
     text-align: center;
     color: #FFFFFF;
@@ -240,6 +238,7 @@
     background-color: #FFFFFF;
     box-shadow: 10px 32px 72px rgba(51, 51, 51, 0.1);
     border-radius: 10px;
+    margin-bottom: 156px;
 }
 .testimonial-content .ratting{
     width: 100px;
@@ -291,6 +290,71 @@
     font-size: 10px;
     line-height: 15px;
     color: #999999;
+}
+/* ------------------subscribe------------ */
+.subscribe{
+    background-image: url(../img/newsletter-crop.png);
+    background-size: cover;
+    background-position: center;
+    height: 332px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.subscribe .isi{
+    position: relative;
+    z-index: 1;
+}
+.subscribe::after{
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+    background-color:rgba(65, 81, 35, 0.86);
+	position: absolute;
+	bottom: 0;
+}
+.subscribe .title-content{
+    color: #FFFFFF;
+}
+.subscribe .title-content-isi{
+    color: #FFFFFF;;
+}
+.subscribe .email{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 26px;
+    width: 600px;
+    height: 73px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+.subscribe .email img{
+    float:left;
+    margin-top: 28px;
+    margin-left: 27px;
+}
+.subscribe .email .email-address{
+    margin-left: 20px;
+    margin-top: 25px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #999999;
+    display: inline;
+    float: left;
+}
+.subscribe .email .btn-email{
+    margin-top: 13px;
+    margin-right: 16px;
+    float: right;
+    border-radius: 10px;
+    width: 144px;
+    height: 47px;
+    background-color: #415123;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;;
 }
 
 
